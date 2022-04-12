@@ -2,7 +2,7 @@
 using namespace std;
 
 int fib(int n){
-    int c, a = 1;
+    int c, a = 0;
     int b = 1;
     for(int i = 3; i <= n; i++){
         c = b;
